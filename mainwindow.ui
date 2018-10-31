@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>615</width>
+    <height>470</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Gobang</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>615</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>开始</string>
+    </property>
+    <addaction name="reset_action"/>
+    <addaction name="goback_action"/>
+    <addaction name="exit_action"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>设置</string>
+    </property>
+    <addaction name="jinshou_action"/>
+    <addaction name="hc_action"/>
+    <addaction name="hh_action_2"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>帮助</string>
+    </property>
+    <addaction name="rule_action"/>
+    <addaction name="about_action"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="reset_action">
+   <property name="text">
+    <string>重新开始</string>
+   </property>
+  </action>
+  <action name="goback_action">
+   <property name="text">
+    <string>悔棋</string>
+   </property>
+  </action>
+  <action name="exit_action">
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </action>
+  <action name="jinshou_action">
+   <property name="text">
+    <string>禁手选择</string>
+   </property>
+  </action>
+  <action name="hc_action">
+   <property name="text">
+    <string>人机博弈</string>
+   </property>
+  </action>
+  <action name="rule_action">
+   <property name="text">
+    <string>规则</string>
+   </property>
+  </action>
+  <action name="about_action">
+   <property name="text">
+    <string>关于</string>
+   </property>
+  </action>
+  <action name="hh_action">
+   <property name="text">
+    <string>人人对弈</string>
+   </property>
+  </action>
+  <action name="action">
+   <property name="text">
+    <string>人人对弈</string>
+   </property>
+  </action>
+  <action name="hh_action_2">
+   <property name="text">
+    <string>人人对弈</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
